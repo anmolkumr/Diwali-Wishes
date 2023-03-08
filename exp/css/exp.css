@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+.hero{
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, brown, yellow);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.hero-inner{
+  color: white;
+}
+
+
+.hero-inner a{
+  background-color: red;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+h1{
+
+
+}
+.hero-text {
+    font-size: 5em;
+  animation: bounce;
+  animate-duration: 0.5s;
+}
